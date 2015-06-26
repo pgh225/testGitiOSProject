@@ -21,6 +21,7 @@
 		5EE014D11B3DEC2600596E90 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EE014B31B3DEC2600596E90 /* UIKit.framework */; };
 		5EE014D91B3DEC2600596E90 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5EE014D71B3DEC2600596E90 /* InfoPlist.strings */; };
 		5EE014DB1B3DEC2600596E90 /* bfGitTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EE014DA1B3DEC2600596E90 /* bfGitTestTests.m */; };
+		5EE014E61B3E116900596E90 /* PHTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EE014E51B3E116900596E90 /* PHTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		5EE014D61B3DEC2600596E90 /* bfGitTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "bfGitTestTests-Info.plist"; sourceTree = "<group>"; };
 		5EE014D81B3DEC2600596E90 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5EE014DA1B3DEC2600596E90 /* bfGitTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bfGitTestTests.m; sourceTree = "<group>"; };
+		5EE014E41B3E116900596E90 /* PHTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHTest.h; sourceTree = "<group>"; };
+		5EE014E51B3E116900596E90 /* PHTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		5EE014A31B3DEC2600596E90 = {
 			isa = PBXGroup;
 			children = (
+				5EE014E41B3E116900596E90 /* PHTest.h */,
+				5EE014E51B3E116900596E90 /* PHTest.m */,
 				5EE014B51B3DEC2600596E90 /* bfGitTest */,
 				5EE014D41B3DEC2600596E90 /* bfGitTestTests */,
 				5EE014AE1B3DEC2600596E90 /* Frameworks */,
@@ -253,6 +258,7 @@
 				5EE014C01B3DEC2600596E90 /* PHAppDelegate.m in Sources */,
 				5EE014C61B3DEC2600596E90 /* PHViewController.m in Sources */,
 				5EE014BC1B3DEC2600596E90 /* main.m in Sources */,
+				5EE014E61B3E116900596E90 /* PHTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
